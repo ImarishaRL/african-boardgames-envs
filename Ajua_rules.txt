@@ -1,0 +1,59 @@
+Game
+Abstract strategy game
+More than 20 variations of the game
+
+
+
+Generals rules
+Players
+pick stones from one port droping to the next pots sequentialy until done
+winner is the player who has acummulated most stones
+
+2 players in the game at every particular point
+player 0
+player 9
+
+----------------------------------------------------------------------------------------
+initial state of the game
+
+Action:  []  Player:  [] Reward:  []
+
+Stones:    0.0 : 0.0
+
+
+[(1, 3.0), (2, 3.0), (3, 3.0), (4, 3.0), (5, 3.0), (6, 3.0), (7, 3.0), (8, 3.0)]
+[(10, 3.0), (11, 3.0), (12, 3.0), (13, 3.0), (14, 3.0), (15, 3.0), (16, 3.0), (17, 3.0)]
+
+---------------------------------------------------------------------------------------
+
+-------
+Steps
+-------
+Pick Stones
+Drop one by one from index+1 anti-clockwise
+Until all bowls are empty
+Count baskets
+
+-------
+Goals
+-------
+Get most stone count in your bucket
+
+-------
+Winner
+-------
+The one who accumaltes more stones in his bucket
+
+-------
+Loser
+-------
+The least number of stones in their bucket
+
+
+Reward system
+Any move that maximizes number of stones towards your busket is =~ +1
+
+
+
+
+

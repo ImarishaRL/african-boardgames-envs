@@ -6,8 +6,7 @@ Imarisha Learning Suite
 **Imarisha is a reinforcement learning library for african board games.** The ``Imarisha learning`` suite provides a set of diverse, two-player board game environments that vary widely in complexity.
 From Ajua to Fanarona, the learning suite offers environments of increasing complexity for reinforcement learning research. Researchers can use the environments provided as stepping stones when testing the scalability and efficiency of their algorithms on increasingly harder problems.
 
-For more information check out
-` <imarisharl.github.io/plartfoms/index/>`_  our site.
+For more information check out [ImarishaRL](imarisharl.github.io/plartfoms/index/) our site.
 
 
 
@@ -35,7 +34,7 @@ You can perform a minimal install of ``imarisha`` with:
 
 .. code:: shell
 
-    git clone https://github.com/ImarishaRL/boardgames.git
+    git clone https://github.com/ImarishaRL/african-boardgames-envs.git
     cd african-boardgames-envs
 
 
@@ -59,7 +58,7 @@ Example
 
 **This example runs a random policy in the ajua environment**
 
-.. code:: shell
+.. code:: python
 
     import numpy as np
     import Ajua_env
